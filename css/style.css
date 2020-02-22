@@ -1,0 +1,47 @@
+.a {
+    width:100%;
+}
+h1{
+    color: aliceblue;
+}
+.text {
+    display: block;
+    text-align: center;
+}
+body{
+    background:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(111, 111, 119, 0) 70.71%);
+}
+.logo{
+    height:50px ;
+    width: 50px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    padding-right: 100px;
+}
+a  {
+    color: oldlace;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} 
+a:hover{
+    color: red;
+}
