@@ -1,47 +1,50 @@
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
     <div class="menu">
-    <img class="logo" src="https://gomycode.tn/images/section2GMCLogo.png" alt="">
-    <ul>
-        <li>
-            <a href="index.html">index</a>
-        </li>
-        
-         <li>
-            <a href="courses.html">courses</a>
+        <img class="logo" src="https://gomycode.tn/images/section2GMCLogo.png" alt="">
+        <ul>
+            <li>
+                <a href="index.html">index</a>
+            </li>
 
-        </li>
-        <li>
-            <a href="contact.html">contact</a>  
-        </li>
-    </ul>
+            <li>
+                <a href="courses.html">courses</a>
+
+            </li>
+            <li>
+                <a href="contact.html">contact</a>
+            </li>
+        </ul>
     </div>
     <center>
         <div>
-    <button>bold</button>
-    <button>underline</button>
-    <button>italic</button>
-    <select>
-     <form>
-     <option>20px</option>
-     <option>40px</option>
-     <option>60px</option>
-     </form>
-    </select>
-    <select>
-        <form>
-        <option>arial</option>
-        <option></option>
-        </form>
-     </select> 
+            <button onclick="makeBold()">bold</button>
+            <button onclick="underlinep()">underline</button>
+            <button onclick="makeitalic()">italic</button>
+            <select onchange="changesize()" id="size">
+                
+                    <option value='20px'>20px</option>
+                    <option value='40px'>40px</option>
+                    <option value='60px'>60px</option>
+                
+            </select>
+            <select onchange="changestyle()" id ="style1">
+                
+                    <option value='arial'>arial</option>
+                    <option value='times'>times</option>
+                
+            </select>
         </div>
-    
-     <textarea name="textarea"
-     rows="20" cols="30">vous pouvez ecrire ici </textarea>  
+
+        <textarea name="textarea" rows="20" cols="30" id="para">vous pouvez ecrire ici </textarea>
     </center>
 </body>
+<script src="js/main.js"></script>
+
 </html>
