@@ -1,6 +1,10 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -19,22 +23,32 @@
     </ul>
 </div>
     <center>
-    <form>
-        <label>your name:</label><br><input type="text" placeholder="write your name here">
-        <br>
-        <label> track:</label>
-        <br>
-        <select>
-            <option>web</option>
-            <option>AI</option>
-            <option>game</option>
-        </select>
-        <br>
-        <label>your Email adress:</label><br><input type="email">
-        <br>
-        <label>your number:</label><br><input type="number">
-        <br>
-        <input type="submit">
+    <form class="col-md-3">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">track</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>game</option>
+              <option>web</option>
+              <option>ai</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">number</label>
+            <input type="text" class="form-control" id="number" aria-describedby="emailHelp" placeholder="Enter your number">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">passeword</label>
+            <input type="text" class="form-control" id="passeword" aria-describedby="emailHelp" placeholder="Enter your passeword">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
         <br>
     </form>
     </center>
