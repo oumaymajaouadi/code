@@ -1,49 +1,105 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 
 <body>
-    <div class="menu">
-        <img class="logo" src="https://gomycode.tn/images/section2GMCLogo.png" alt="">
-        <ul>
-            <li>
-                <a href="index.html">index</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://gomycode.tn/images/section2GMCLogo.png" width="50" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
-
-            <li>
-                <a href="courses.html">courses</a>
-
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
             </li>
-            <li>
-                <a href="contact.html">contact</a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
-        </ul>
+          </ul>
+        </div>
+      </nav>
+    <div class="cover">
+        <h1 class="heading">COURSES</h1>
+    </div>
+    <div class="wrapper">
+        <div class="courses">
+            <div class="img1">
+                <button class="btn1">View More</button>
+            </div>
+            <div class="img2">
+                <button class="btn2">View More</button>
+            </div>
+            <div class="img3">
+                <button class="btn3">View More</button>
+            </div>
+        </div>
+        <div class="courses">
+            <div class="img4">
+                <button class="btn4">View More</button>
+            </div>
+            <div class="img5">
+                <button class="btn5">View More</button>
+            </div>
+            <div class="img6">
+                <button class="btn6">View More</button>
+            </div>
+        </div>
+        <div class="courses">
+            <div class="img7">
+                <button class="btn7">View More</button>
+            </div>
+            <div class="img8">
+                <button class="btn8">View More</button>
+            </div>
+            <div class="img9">
+                <button class="btn9">View More</button>
+            </div>
+        </div>
     </div>
     <center>
-        <div>
-            <button onclick="makeBold()">bold</button>
-            <button onclick="underlinep()">underline</button>
-            <button onclick="makeitalic()">italic</button>
-            <select onchange="changesize()" id="size">
-                
-                    <option value='20px'>20px</option>
-                    <option value='40px'>40px</option>
-                    <option value='60px'>60px</option>
-                
+        <div class="col-md-4 area">
+            <button class="btn btn-light" >Bold</button>
+            <button class="btn btn-light" >Underline</button>
+            <button class="btn btn-light" >Italic</button>
+            <select class="form-control" name="" id="">
+                <option value="">20px</option>
+                <option value="">40px</option>
+                <option value="">60px</option>
             </select>
-            <select onchange="changestyle()" id ="style1">
-                
-                    <option value='arial'>arial</option>
-                    <option value='times'>times</option>
-                
+            <select class="form-control" name="" id="">
+                <option value="">Arial</option>
+                <option value="">Candreva</option>
             </select>
         </div>
-
-        <textarea name="textarea" rows="20" cols="30" id="para">vous pouvez ecrire ici </textarea>
+        <div class="form-group col-md-4">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
     </center>
+    <div id="ex1" class="modal">
+        <p>This is GoMyCode Track.
+            Each track has its own goal.
+            By adopting this track, you chose your own goal.</p>
+    </div>
+    
+                    
 </body>
 <script src="js/main.js"></script>
 

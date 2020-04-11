@@ -1,51 +1,214 @@
-.a {
-    width:100%;
+body {
+    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), 
+    linear-gradient(127deg, black, black 70.71%), 
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    margin: 0 !important;
 }
-h1{
-    color: aliceblue;
-}
-.text {
-    display: block;
-    text-align: center;
-}
-body{
-    background:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
 
-    Linear-gradient(127deg, black, black 70.71%),
-    
-    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(111, 111, 119, 0) 70.71%);
-}
-.logo{
-    height:50px ;
+#logo {
+    margin-left: 10px;
+    height: 50px;
     width: 50px;
 }
-.menu {
+nav {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
 }
+
 ul {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    flex-direction: row;
     width: 100%;
 }
 
-li {
-    list-style-type: none;
-    padding-right: 100px;
+ul li {
+    list-style: none;
+    padding-right: 50px;
 }
-a  {
-    color: white !important;
+
+li a {
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    color: white !important;
+    font-size: 1.5em;
+    text-transform: uppercase;
     font-weight: bold;
-    font-size:x-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+li a:hover {
+    color: red !important;
+}
+
+.slider img {
+    width: 100%;
+    height:750px;
+}
+
+h1 {
+    color: white;
+}
+
+.img1 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.img2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel1.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.img3 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel2.png');
+    background-size: cover;
+    overflow: hidden;
+}
+.img4 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel3.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.img5 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel4.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.img6 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel5.png');
+    background-size: cover;
+    overflow: hidden;
+}
+.img7 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel6.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.img8 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel7.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.img9 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet\ dynamique\ vectoriel8.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.courses {
+    text-align: center;
+}
+
+
+.img1:hover , .img2:hover , .img3:hover , .img4:hover , .img5:hover , .img6:hover , .img7:hover , .img8:hover , .img9:hover {
+    background-color:black;
+    opacity: 0.5;
+}
+
+.btn1 , .btn2 , .btn3 , .btn4 , .btn5 , .btn6 , .btn7 , .btn8 , .btn9 {
+    margin-top:120px;
+    display:none;
+}
+
+.btnHover {
+    display: inline !important;
+    opacity:1 !important;
+}
+
+.cover {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    background-image: url('https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+
+.cover .heading {
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: relative;
+    top: 40%;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+    margin: 30px 0 40px 500px;
+}
+
+label {
+    color: white;
+}
+
+.wrapper > div {
+    padding-bottom: 30px;
+}
+
+form {
+    width:250px;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+
+
     
-} 
-a:hover{
-    color: red;
-}
-.b {
- padding-left: 2cm;
- 
-}
+
+
+
+
+
+
+    
+

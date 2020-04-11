@@ -2,32 +2,46 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
+    
 
 </head>
 
 <body>
-    <div class="menu">
-    <img class="logo" src="https://gomycode.tn/images/section2GMCLogo.png" alt="">
-
-    <ul>
-        <li>
-            <a href="index.html">HOME</a>
-        </li>
-        <li>
-            <a href="courses.html">COURSES</a>
-        </li>
-        
-           <a href="contact.html">CONTACT</a>
-        
-    </ul>
+    
 </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">
+      <img src="https://gomycode.tn/images/section2GMCLogo.png" width="50" height="50" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="courses.html">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
     
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -55,13 +69,25 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    <div class="text">
-        <img class="b" src="https://ahlemchiboub.github.io/gmc/res/img3.png" alt="">
-        <img class="b" src="https://ahlemchiboub.github.io/gmc/res/img1.png" alt="">
-        <img class="b" src="https://ahlemchiboub.github.io/gmc/res/img2.png" alt="">
-    <h1>More about GoMyCode:</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/MkLog_27S6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+      <h1 align="center">Courses:</h1>
+      <div class="courses">
+          <div class="img1">
+              <button class="btn1">View More</button>
+          </div>
+          <div class="img2">
+              <button class="btn2">View More</button>
+          </div>
+          <div class="img3">
+              <button class="btn3">View More</button>
+          </div>
+          <a href="courses.html"><h4>View more...</h4></a>
+      </div>
+      <hr>
+      <h1 align="center">More about GoMyCode:</h1>
+      <div align="center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MkLog_27S6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          <br>
+    
 
 </body>
 <script src="js/main.js"></script>
